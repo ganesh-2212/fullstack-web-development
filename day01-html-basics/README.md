@@ -22,6 +22,4 @@ Built a professional student profile webpage using only HTML.
 
 Learned the basic structure of an HTML webpage and created a clean portfolio-style profile page.
 
----
 
-**Author:** Ganesh S
