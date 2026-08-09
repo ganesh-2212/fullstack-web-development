@@ -1,15 +1,15 @@
-Full Stack Web Development Journey
+# Full Stack Web Development Journey
 
-This repository contains my daily practice and projects while learning Full Stack Web Development from scratch.
+Daily practice and projects while learning Full Stack Web Development from scratch.
 
-Technologies
-HTML
-CSS
-JavaScript
-React.js
-Node.js
-Express.js
-MongoDB
-Git & GitHub
+## Tech Stack
 
-Each folder represents one day of learning and hands-on practice.
+* HTML
+* CSS
+* JavaScript
+* React.js
+* Node.js
+* Express.js
+* MongoDB
+* Git & GitHub
+
