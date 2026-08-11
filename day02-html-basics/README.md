@@ -16,4 +16,3 @@ Built a one-page college technical event website using HTML.
 * `index.html`
 * `banner.jpg`
 
-**Author:** Ganesh S
