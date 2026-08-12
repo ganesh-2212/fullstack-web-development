@@ -15,12 +15,12 @@
             <fieldset>
                 <legend>Personal Info</legend>
                 <p>
-                    <label for="firstName">FirstName:</label>
+                    <label for="firstName">First Name:</label>
                     <input type="text" name="firstName" id="firstName" placeholder="Ganesh" autocomplete="on" autofocus
                         required>
                 </p>
                 <p>
-                    <label for="lastName">LastName:</label>
+                    <label for="lastName">Last Name:</label>
                     <input type="text" name="lastName" id="lastName" placeholder="Anand" autocomplete="on" required>
                 </p>
                 <p>
@@ -42,7 +42,7 @@
                     <select name="coffee" id="coffee">
                         <optgroup label="American">
                             <option value="Espresso">Espresso</option>
-                            <option value="Capusccino">Capusccino</option>
+                            <option value="Cappuccino">Cappuccino</option>
                         </optgroup>
                         <optgroup label="Indian Coffee">
                             <option value="Black Coffee" selected>Black Coffee</option>
@@ -55,15 +55,61 @@
                     <input type="text" name="coffee" id="coffee" list="coffee-list">
                     <datalist id="coffee-list">
                         <option value="Espresso">Espresso</option>
-                        <option value="Capusccino">Capusccino</option>
+                        <option value="Cappuccino">Cappuccino</option>
                         <option value="Black Coffee" selected>Black Coffee</option>
                         <option value="Iced Coffee">Iced Coffee</option>
-
                     </datalist>
                 </p>
             </fieldset>
+            <br>
+            <fieldset>
+                <legend>Favorite Food</legend>
+                <p>
+                    <input type="radio" name="food" id="dhosa" value="dhosa">
+                    <label for="dhosa">Dhosa</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="idly" value="idly">
+                    <label for="idly">Idly</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="noodles" value="noodles">
+                    <label for="noodles">Noodles</label>
+                </p>
+                <p>
+                    <input type="radio" name="food" id="pasta" value="pasta">
+                    <label for="pasta">Pasta</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Pets</legend>
+                <p>Do you have Pets?</p>
+                <p>
+                    <input type="checkbox" name="dog" id="dog" value="dog">
+                    <label for="pets">Dog</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="cat" id="cat" value="cat">
+                    <label for="pets">Cat</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="fish" id="fish" value="fish">
+                    <label for="pets">Fish</label>
+                </p>
+                <br>
+                <fieldset>
+                    <legend>Send Message</legend>
+                    <br>
+                    <label for="message">Your Message...</label>
+                    <br>
+                    <textarea name="message" id="message" cols="50" rows="10">Type here...</textarea>
+                </fieldset>
+                <br>
+                <button type="submit">Submit</button>&nbsp;&nbsp;
+                <button type="reset">Reset</button>
+            </fieldset>
         </form>
-
     </article>
 
 </body>
