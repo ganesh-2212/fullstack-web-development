@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Form</h1>
+        <nav>
+            <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+            <a href="#about">About Siya Momos</a>&nbsp;&nbsp;&nbsp;
+            <a href="#menu">Our Menu</a>&nbsp;&nbsp;&nbsp;
+            <a href="shophours.html">Working Hours</a>&nbsp;&nbsp;&nbsp;
+        </nav>
+    </header>
+
+    <main>
+        <h2>Our Contact Form</h2>
+        <article id="contact">
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send us a Message</legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Name" autocomplete required autofocus>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Email" autocomplete required>
+                    </p>
+                    <p>
+                        <label for="tel">Phone:</label>
+                        <input type="tel" id="number" name="number" placeholder="Phone Number" required>
+                    </p>
+                    <p>Your Message:</p>
+                    <textarea name="message" id="message" rows="10" cols="50">Type here...</textarea>
+                </fieldset>
+                <p>
+                    <button type="submit">Send</button>
+                    <button type="reset">Reset</button>
+                </p>
+
+                <h3>Our Location</h3>
+                <address>
+                    Siya Momos Restaurant<br>
+                    12, Food Street,<br>
+                    Reddiyarpalayam,<br>
+                    Puducherry – 605010,<br>
+                    India<br>
+                    Phone: +91 98765 43210<br>
+                    Email: siyamomos@gmail.com
+                </address>
+                <br>
+                <a href="contact.html">Back to Top</a>
+
+        </article>
+    </main>
+
+</body>
+
+</html>
