@@ -10,5 +10,9 @@ table, tr, th, td, caption{
     border: 1px solid #131313;
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
-    padding: 0.3rem;
+    padding: 0.4rem;
+}
+
+#momo1 img {
+    width: 400px;
 }
