@@ -2,8 +2,6 @@ body {
     background-color: papayawhip;
     font-size: 20px;
     color: rgb(192, 8, 8);
-
-
 }
 
 .a1,
@@ -12,3 +10,33 @@ body {
     color: rgb(12, 12, 12);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+header{
+    width: 50%;
+} 
+.b2{
+    border: 2px solid brown;
+    width: 100%;
+}
+
+.c1{
+    border: 2px solid brown;
+    width: 50%;
+}
+
+
+.unit1{
+    font-size: 16px;
+    color: black;
+}
+.unit2{
+    font-size: 2em;
+    color: black;
+}
+
+.e1{
+    width: 50ch;
+}
+
+
+
