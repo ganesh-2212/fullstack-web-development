@@ -1,0 +1,17 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+h1,
+p {
+    border: 2px solid black;
+    font-size: 1.5em;
+    padding: 1em;
+    margin: 1.5em;
+    /* margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em; */
+}
