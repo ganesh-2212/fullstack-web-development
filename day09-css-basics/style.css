@@ -34,11 +34,13 @@
 }
 
 .circle {
-    margin: 2rem auto;
+    margin: 3rem auto;
     background-color: blue;
     width: 200px;
     height: 200px;
     border: solid black;
     border-width: 3px;
     border-radius: 100px;
+    outline: 2px solid red;
+    outline-offset: 1rem;
 }
