@@ -1,0 +1,44 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* .a1 {
+    border: solid black;
+    border-width: 2px;
+    padding: 1rem;
+    margin: 1rem;
+} */
+
+/* .b1 {
+    border: solid black;
+    border-width: 2px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.c1 {
+    border: solid black;
+    border-width: 2px;
+    padding: 1rem;
+    margin: 1rem;
+} */
+
+.a2,
+.a3 {
+    border: solid black;
+    padding: 1rem;
+    margin: 1rem;
+    outline: 5px solid red;
+    outline-offset: -10px;
+}
+
+.circle {
+    margin: 2rem auto;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    border-width: 3px;
+    border-radius: 100px;
+}
