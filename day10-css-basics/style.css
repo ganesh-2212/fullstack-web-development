@@ -1,0 +1,33 @@
+body {
+    padding: 10%;
+    font-size: 1.5rem;
+    color: blue;
+}
+
+/* input, button{
+    font: inherit;
+} */
+
+.a {
+    text-decoration: line-through;
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.b {
+    text-decoration: underline;
+}
+
+.c {
+    text-indent: 2rem   ;
+}
+
+.d {
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 1.5;
+}
+
+span {
+    text-decoration: underline;
+}
