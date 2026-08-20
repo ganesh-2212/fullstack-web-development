@@ -1,6 +1,8 @@
-# Day 10 - CSS Text and Typography
+# Day 10 - CSS Basics
 
 ## Topics Covered
+
+### Text and Typography
 
 * `font-size`
 * `font-family`
@@ -14,6 +16,33 @@
 * `letter-spacing`
 * CSS inheritance using `inherit`
 
+### Link Styling and Pseudo-classes
+
+* `a`
+* `a:visited`
+* `a:hover`
+* `a:focus`
+* `a:active`
+* HSL and HSLA colors
+
+### Additional Practice
+
+* Universal selector (`*`)
+* Resetting default `margin` and `padding`
+* Styling headings and the `main` element
+
 ## Practice
 
-Practiced styling text using different CSS typography and text properties, including font customization, text alignment, decoration, transformation, spacing, and indentation.
+Practiced CSS text and typography properties along with interactive link styling using CSS pseudo-classes.
+
+## Files
+
+```text
+day10-css-basics/
+├── index.html
+├── main.html
+├── one.html
+├── README.md
+├── style.css
+└── style1.css
+```

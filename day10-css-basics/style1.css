@@ -1,0 +1,33 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+a {
+    color: hsl(251, 55%, 40%);
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover, a:focus{
+    color: hsl(189, 55%, 40%, 0.8);
+    background: gold;
+}
+
+a:active{
+    color: gray;
+}
