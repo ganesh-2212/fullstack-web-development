@@ -16,16 +16,26 @@ body {
 
 .b {
     text-decoration: underline;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    
 }
 
 .c {
-    text-indent: 2rem   ;
+    text-indent: 2rem;
 }
 
 .d {
     text-transform: capitalize;
     text-align: center;
     line-height: 1.5;
+    letter-spacing: 0.15rem;
+}
+
+.e {
+    font-weight: bold;
+    font-style: oblique;
+    font-family: serif;
 }
 
 span {
