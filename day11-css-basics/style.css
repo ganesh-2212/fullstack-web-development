@@ -6,12 +6,39 @@ body {
 ol {
     /*  list-style-type: lower-alpha; */
     /*     list-style-type: square;*/
-    list-style-type: decimal; /* default */
+    list-style-type: decimal;
+    /* default */
 }
 
-ul{
-    list-style-type: square;
+.a1 {
     text-align: center;
     list-style-position: inside;
     color: blue;
+}
+
+ul :nth-child(5) {
+
+    color: blueviolet;
+}
+
+ol :nth-child(odd) {
+    color: rgb(230, 21, 21);
+}
+
+a2 ::marker {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.bb{
+    list-style-type: square;
+}
+
+.a3 ::marker{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    content:"#";
+    
 }
