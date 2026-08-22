@@ -1,4 +1,4 @@
-# Day 11 - CSS List Styling and Navigation Menu
+# Day 12 - CSS List Styling and Navigation Menu
 
 ## Topics Covered
 
