@@ -1,0 +1,29 @@
+.block {
+    background-color: black;
+    color: aliceblue;
+    width: 10vw;
+    height: 10vw;
+    padding: 20px;
+    font-size: larger;
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+section {
+    background-color: bisque;
+    padding: 1rem;
+    border: 1px solid black;
+    display: flow-root;
+}
