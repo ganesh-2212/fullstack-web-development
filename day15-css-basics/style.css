@@ -11,5 +11,24 @@
 
 .columns p {
     margin-top: 0%;
+}
 
+.columns h2 {
+    margin-top: 0%;
+    color: azure;
+    background-color: black;
+    padding: 10px;
+    break-inside: avoid;
+}
+
+.columns .quote{
+    margin-top: 2%;
+    font-size: 3rem;
+    text-align: center;
+    color: brown;
+    column-span: all;
+}
+
+.nowrap{
+    white-space: nowrap;
 }
