@@ -1,8 +1,15 @@
-.columns{
-    /* column-count: 2;
-    column-width: 250px; */
+.columns {
+    /* column-count: 4;
+    column-width: 250px;  */
+
+    font-size: 1rem;
 
     columns: 4 250px;
     column-rule: 1px solid black;
-    font-size: 1rem;
+    column-gap: 2rem;
+}
+
+.columns p {
+    margin-top: 0%;
+
 }
