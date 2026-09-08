@@ -1,34 +1,35 @@
-body{
+body {
     font-size: 1.5rem;
     min-height: 200vh;
 }
 
-.innerbox{
+.innerbox {
     border: 3px black solid;
     height: 50vh;
     width: 40vw;
     margin: 200px auto;
-    
+    position: relative;
+
+
 }
 
-.outerbox{
+.outerbox {
     border: 3px black solid;
     height: 85vh;
     width: 75vw;
     margin: 40px auto;
 }
 
-.box{
+.box {
     width: 150px;
-    height: 150px ;
+    height: 150px;
     color: rgb(255, 255, 255);
     padding: 1rem;
 }
 
-.abs{
+.abs {
     background-color: blue;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 100px;
+    left: 50px;
 }
