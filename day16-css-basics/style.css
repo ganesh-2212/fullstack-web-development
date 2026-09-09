@@ -60,3 +60,66 @@ body {
     position: sticky;
     top: 0;
 }
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+section {
+    height: 100vh;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+header,
+footer {
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    font-size: 3rem;
+
+}
+
+footer {
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    font-size: 3rem;
+}
+
+a:visited{
+    color: azure;
+}
+
+a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.social{
+    background-color: aqua;
+    padding: 1rem;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    font-size: inherit;
+    z-index: 1;
+}
