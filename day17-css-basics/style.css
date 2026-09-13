@@ -25,10 +25,3 @@ body{
     /* align-items: flex-end; */
 }
 
-.box{
-    background-color: black;
-    color: white;
-    max-width: 100px;
-    min-height: 100px;
-    padding: 0.8rem;
-}
