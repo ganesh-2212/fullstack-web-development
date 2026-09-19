@@ -13,11 +13,11 @@ body {
     min-height: 400px;
     display: grid;
     /* grid-template-columns: 2fr 2fr 2fr; */
+
     grid-template-columns: repeat(2, 1fr 2fr);
-
     grid-auto-rows: minmax(150px, auto);
-
     gap: 1rem;
+    
     /* row-gap: 1em;
     column-gap: 1em; */
 }
