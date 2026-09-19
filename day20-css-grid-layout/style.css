@@ -23,8 +23,6 @@ body {
     color: rgb(248, 251, 251);
     display: grid;
     place-content: center;
-    
-    
 }
 
 .header {
@@ -85,8 +83,6 @@ body {
     grid-row: 3 / 4;
     display: grid;
     place-content: center;
-
-
 }
 
 .box:nth-child(6) {
@@ -96,7 +92,6 @@ body {
     grid-column: 2/5;
     display: grid;
     place-content: center;
-
 }
 
 .box:nth-child(2),
