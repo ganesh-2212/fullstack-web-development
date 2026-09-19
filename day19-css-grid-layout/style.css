@@ -52,8 +52,6 @@ body {
     grid-row: 3 / 4;
     display: grid;
     place-content: center;
-
-
 }
 
 .box:nth-child(6) {
