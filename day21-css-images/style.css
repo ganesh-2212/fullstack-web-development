@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.profile-pic-figure {
+    width: 35%;
+}
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double black;
+    border-radius: 50%;
+}
+
+.hero {
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    background-color: rgb(120, 137, 138);
+    background-image: url('../day21-css-images/assets/pat1.png');
+    
+}
+
+h1{
+    color: azure;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.offscreen{
+    position: absolute;
+    left: -10000px;
+}
+
+.example {
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+
+.example img {
+    width: 25%;
+    height: auto;
+}
