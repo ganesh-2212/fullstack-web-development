@@ -1,31 +1,47 @@
-# Day 21 - CSS Images
+# Day 21 - CSS Images & Backgrounds
 
 ## Topics Covered
 
 - CSS Images
-- Using images as background images
-- `background-image`
-- Image sizing with `width` and `height`
 - Responsive image sizing
 - `display: block`
+- `width` and `height`
+- `min-width`
 - `border`
 - `border-radius`
+- CSS background images
+- `background-color`
+- `background-image`
+- Multiple background images
+- Linear gradients
+- `background-repeat`
+- `background-position`
+- `background-size`
+- `background-size: cover`
+- `background-size: contain`
+- Background image overlays using transparency
+- `text-shadow`
 - `white-space: nowrap`
 - Offscreen elements using `position: absolute`
-- Styling images inside containers
+- `background-clip: text`
+- `-webkit-background-clip: text`
+- Transparent text with image backgrounds
 
 ## Practice
 
-Practiced styling images and using background images with CSS.
+Practiced styling images and creating different background effects using CSS.
 
 Also practiced:
 
-- Creating a circular profile image using `border-radius`
-- Making images responsive using `width: 100%` and `height: auto`
-- Adding a background image to a section
-- Using `display: block` for images
-- Controlling image size with percentage-based widths
-- Preventing text wrapping using `white-space: nowrap`
-- Positioning content offscreen using `position: absolute`
-- Combining images with Flexbox in a hero section
+- Creating responsive circular profile images
+- Using background images on containers and sections
+- Combining background images with linear gradients
+- Controlling background repetition and positioning
+- Using `background-size: cover` and `contain`
+- Creating transparent background overlays
+- Adding shadows to text using `text-shadow`
+- Applying an image inside text using `background-clip: text`
+- Creating large image-filled text effects
+- Using multiple background properties together
+- Controlling image sizing with percentage-based widths
 
