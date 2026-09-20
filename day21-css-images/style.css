@@ -94,5 +94,6 @@ body {
     background-image: url("../day21-css-images/assets/scenic-2200x1331.png");
     background-position: top;
     -webkit-background-clip: text;
+    background-clip: text;
     color: rgba(0, 0, 0, 0.1);
 }
