@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+
+    background-color: gray;
+    background-image: radial-gradient(white, gray);
+
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+nav,
+main,
+footer {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    grid-template-columns: 100%;
+}
+
+header,footer{
+    position: sticky;
+    background-color: black;
+    color: white;
+}
+
+header{
+    padding: 10px;
+    top: 0;
+}
+
+nav{
+    background-color: rgb(247, 246, 244);
+    color: black;
+}
+
+main{
+    flex-grow: 1;
+}
+
+footer{
+    bottom: 0;
+    padding: 10px;
+}
+
+@media screen and (min-width : 500px){
+    body{
+        background-color: green;
+        background-image: radial-gradient(rgb(120, 120, 230),rgb(15, 13, 19));
+    }
+    nav{
+        display: none;
+    }
+}
+
+/* @media screen and (max-width : 500px){
+    body{
+        background-color: green;
+        background-image: radial-gradient(rgb(120, 120, 230),rgb(15, 13, 19));
+    }
+    nav{
+        display: none;
+    }
+} */
+
+@media screen and (min-width : 700px){
+    body{
+        background-color: green;
+        background-image: radial-gradient(rgb(230, 120, 120),rgb(15, 13, 19));
+    }
+    nav{
+        display: none;
+    }
+}
+
+@media screen and (max-height : 450px) and (min-aspect-ratio: 7/4){
+    body{
+        background-color: rgb(131, 175, 8);
+        background-image: radial-gradient(rgb(186, 230, 120),rgb(15, 13, 19));
+    }
+    h1,h2{
+        font-size: 0.5rem;
+    }
+    nav{
+        display: none;
+    }
+}
