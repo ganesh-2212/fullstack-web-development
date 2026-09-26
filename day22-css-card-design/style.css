@@ -1,93 +1,113 @@
 * {
     padding: 0;
+
     margin: 0;
     box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.nowrap {
+    white-space: nowrap;
+
 }
 
 body {
     min-height: 100vh;
 
-    background-color: gray;
     background-image: radial-gradient(white, gray);
 
     display: flex;
     flex-direction: column;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 header,
-nav,
-main,
 footer {
-    display: grid;
-    place-content: center;
-    text-align: center;
-    grid-template-columns: 100%;
-}
-
-header,footer{
     position: sticky;
-    background-color: black;
+    background-color: rgb(56, 53, 53);
     color: white;
+    text-align: center;
 }
 
-header{
+header {
     padding: 10px;
     top: 0;
 }
 
-nav{
+nav {
     background-color: rgb(247, 246, 244);
+    color: rgb(245, 241, 241);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav a,
+nav a:visited {
     color: black;
 }
 
-main{
-    flex-grow: 1;
+nav a:hover,
+nav a:focus {
+    color: hsl(240, 100%, 50%);
 }
 
-footer{
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5 rem;
+    padding: 1rem;
+}
+
+footer {
     bottom: 0;
     padding: 10px;
 }
 
-@media screen and (min-width : 500px){
-    body{
-        background-color: green;
-        background-image: radial-gradient(rgb(120, 120, 230),rgb(15, 13, 19));
-    }
-    nav{
-        display: none;
-    }
+
+
+.card {
+    scroll-margin-top: 8rem;
+    width: min(100%, 350px);
+    background-color: rgb(137, 146, 146);
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* @media screen and (max-width : 500px){
-    body{
-        background-color: green;
-        background-image: radial-gradient(rgb(120, 120, 230),rgb(15, 13, 19));
-    }
-    nav{
-        display: none;
-    }
-} */
-
-@media screen and (min-width : 700px){
-    body{
-        background-color: green;
-        background-image: radial-gradient(rgb(230, 120, 120),rgb(15, 13, 19));
-    }
-    nav{
-        display: none;
-    }
+.card figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
 }
 
-@media screen and (max-height : 450px) and (min-aspect-ratio: 7/4){
-    body{
-        background-color: rgb(131, 175, 8);
-        background-image: radial-gradient(rgb(186, 230, 120),rgb(15, 13, 19));
+.card img {
+    border: 2px solid black;
+    border-radius: 180px;
+}
+
+@media screen and (min-width: 500px){
+    main{
+        justify-content: center;
+        flex-flow:row wrap;
+        padding: 1rem;
     }
-    h1,h2{
-        font-size: 0.5rem;
-    }
-    nav{
-        display: none;
-    }
+    
 }
