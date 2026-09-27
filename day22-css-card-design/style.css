@@ -136,3 +136,14 @@ footer {
         margin-top: 1rem;
     }
 }
+
+@media screen and (min-width: 950px) {
+   
+    .card{
+        width: min(100%, 400px);
+    }
+    .card:nth-child(1){
+        order: -1;
+    }
+}
+
