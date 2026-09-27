@@ -68,7 +68,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5 rem;
+    gap: 1.5rem;
     padding: 1rem;
 }
 
@@ -103,11 +103,36 @@ footer {
     border-radius: 180px;
 }
 
-@media screen and (min-width: 500px){
-    main{
+@media screen and (min-width: 500px) {
+    main {
         justify-content: center;
-        flex-flow:row wrap;
+        flex-flow: row wrap;
         padding: 1rem;
     }
-    
+
+    .card {
+        width: min(100%, 400px);
+    }
+
+    .card:last-child {
+        order: -1;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    nav {
+        display: none;
+    }
+    .card{
+        width: min(100%, 325px);
+    }
+    .card figure{
+        flex-flow: column-reverse;
+    }
+    .card figcaption{
+        margin: 0.1em 0;
+    }
+    .card p{
+        margin-top: 1rem;
+    }
 }
