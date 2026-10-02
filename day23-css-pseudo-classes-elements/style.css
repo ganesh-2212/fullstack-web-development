@@ -102,6 +102,34 @@ footer {
     padding-top: 10px;
 }
 
+.card figcaption::after{
+    content: '#';
+    display: block;
+}
+.card figcaption::before{
+    content: '@';
+    display: block;
+}
+
+.card p{
+    position: relative;
+}
+
+.card p::before{
+    content: open-quote;
+    font-size: 2rem;
+    position: absolute;
+    top: -0.25em;
+    left: -0.55em;
+}
+.card p::after{
+    content: close-quote;
+    font-size: 2rem;
+    position: absolute;
+    top: -0.25em;
+    right: -0.55em;
+}
+
 .card img {
     border: 2px solid black;
     border-radius: 180px;
