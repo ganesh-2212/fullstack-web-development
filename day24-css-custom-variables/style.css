@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+:root {
+    --BGCOLOR: rgb(47, 46, 46);
+    --ALT-BGCOLOR: rgb(56, 53, 53);
+    --ONE-BGCOLOR: rgb(44, 42, 42);
+    --ONE-COLOR: rgb(208, 204, 204);
+
+
+}
+
+.one {
+    background-color: var(--ONE-BGCOLOR);
+    color: var(--ONE-COLOR) ;
+    padding: 10px;
+}
+
+.nowrap {
+    white-space: nowrap;
+
+}
+
+body {
+    min-height: 100vh;
+    background-color: black;
+
+    background-image: radial-gradient(white, var(--BGCOLOR));
+
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:where(header, footer) {
+    position: sticky;
+    background-color: rgb(56, 53, 53);
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 10px;
+    top: 0;
+}
+
+nav {
+    background-color: rgb(247, 246, 244);
+    color: rgb(245, 241, 241);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a:any-link {
+    color: black;
+}
+
+nav :is(a:hover, a:focus) {
+    color: hsl(240, 100%, 50%);
+}
+
+nav a:active {
+    color: red;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+footer {
+    bottom: 0;
+    padding: 10px;
+}
